@@ -1,43 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ozVFrFMv)
-# CSCI 1260 — Project
+Minesweeper, here this project will allow you to play a game called Minesweeper. You should be allowed to set 8x8, 12x12, and 16x16 of your choice. In this game the player must avoid choosing a bomb and land on other blocks to gain points for a high score. If you touch a bomb, your game will end. Once the game ends, you will get a high score
 
-## Project Instructions
-All project requirements, grading criteria, and submission details are provided on **D2L**.  
-Refer to D2L as the *authoritative source* for this assignment.
+## Feature you will choose either 8x8, 12x12, or 16x16. Here you must avoid the bombs and gain points by landing on the block to get a highscore.
 
-This repository is intentionally minimal. You are responsible for:
-- Creating the solution and projects
-- Designing the class structure
-- Implementing the required functionality
+## Build Instructions Request Net.SDK
 
----
+## Run Instructions Run the game with: dotnet run
 
-## Getting Started (CLI)
+## Runtime you just need to press the run button. You will then be able to choose either 8x8, 12x12, or 16x16 and then set up a seed and start the game
 
-You may use **Visual Studio**, **VS Code**, or the **terminal**.
+## Win Condition Click on the blocks to gain more points for your high score
 
-### Create a solution
-```bash
-dotnet new sln -n ProjectName
-```
+## Lose Condition If you click on the bomb your game is over
 
-### Create a project (example: console app)
-```bash
-dotnet new console -n ProjectName.App
-```
+## Project Structure Minesweeper - Controls input/output. Minesweeper.Core - Contains the game Logic
 
-### Add the project to the solution
-```bash
-dotnet sln add ProjectName.App
-```
+## UML Diagram Should be set as Minesweeper.PNG
 
-### Build and run
-```bash
-dotnet build
-dotnet run --project ProjectName.App
-```
-
-## Notes
-- Commit early and commit often.
-- Your repository history is part of your submission.
-- Update this README with build/run instructions specific to your project.
+Author Sid Pierce CSCI 1260 - Object Oriented Programming
